@@ -5,6 +5,7 @@
  * Released under the MIT License.
  */
 
+//
 function trimTabAndSpaces(str) {
   const lines = str.split('\n');
   const trimmedLines = lines.map((line) => line.trimEnd());
