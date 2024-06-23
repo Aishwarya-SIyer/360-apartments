@@ -1,0 +1,19 @@
+.component36Parent,
+.viewedProperty {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component36Parent {
+  align-self: stretch;
+  max-width: 100%;
+  margin-top: -160px;
+}
+.viewedProperty {
+  width: 100%;
+  background-color: #3a678d;
+  overflow: hidden;
+  letter-spacing: normal;
+}

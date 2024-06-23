@@ -1,0 +1,46 @@
+.charming1Bhk,
+.description {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 18px;
+}
+.description {
+  width: 236px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.charming1Bhk {
+  align-self: stretch;
+  font-size: var(--font-size-xl);
+}
+.component36 {
+  width: 847px;
+  margin: 0 !important;
+  position: absolute;
+  top: 172px;
+  left: 49px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-aldrich);
+}
+@media screen and (max-width: 450px) {
+  .charming1Bhk,
+  .description {
+    font-size: var(--font-size-lgi);
+    line-height: 14px;
+  }
+  .charming1Bhk {
+    font-size: var(--font-size-base);
+  }
+}

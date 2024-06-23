@@ -1,0 +1,53 @@
+.span {
+  color: var(--color-gray);
+}
+.easyWayToContainer {
+  margin: 0;
+  height: 184px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 2;
+}
+.component40Parent,
+.easyWayToFindAPerfectProWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.easyWayToFindAPerfectProWrapper {
+  width: 550px;
+  flex-direction: row;
+  padding: 0 var(--padding-16xl);
+  box-sizing: border-box;
+}
+.component40Parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-40xl);
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: var(--font-aldrich);
+}
+@media screen and (max-width: 1000px) {
+  .easyWayToContainer {
+    font-size: var(--font-size-32xl);
+  }
+}
+@media screen and (max-width: 725px) {
+  .component40Parent {
+    gap: 29px 59px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .easyWayToContainer {
+    font-size: var(--font-size-19xl);
+  }
+}

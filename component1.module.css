@@ -1,0 +1,124 @@
+.component39Child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.component1Icon {
+  margin-top: -13.399999999999636px;
+  height: 46px;
+  width: 55.4px;
+}
+.apartments,
+.component1Icon {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1cbd860;
+}
+.component3,
+.component39 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.component3 {
+  height: 46px;
+  width: 262px;
+  padding: var(--padding-8xs) var(--padding-xl) 8.399999999999636px 0;
+  gap: 7.599999999998545px;
+  z-index: 1;
+}
+.component39 {
+  width: 1440px;
+  padding: var(--padding-lg) var(--padding-6xs) var(--padding-2xl);
+  position: relative;
+  max-width: 100%;
+}
+.explore {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.2em;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-family: var(--font-aldrich);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 124px;
+  cursor: pointer;
+}
+.exploreWrapper {
+  cursor: pointer;
+  border: 5px solid var(--color-black);
+  padding: var(--padding-3xs) var(--padding-10xs) var(--padding-3xs)
+    var(--padding-xs);
+  background-color: transparent;
+  flex: 1;
+  border-radius: var(--br-31xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.exploreWrapper:hover {
+  background-color: var(--color-darkslategray-200);
+  border: 5px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+}
+.component38Child,
+.component38Item {
+  align-self: stretch;
+  flex: 0.6048;
+}
+.component38Item {
+  flex: 0.8468;
+}
+.component38,
+.component38Wrapper,
+.component40 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component38 {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-15xl);
+  z-index: 2;
+}
+.component38Wrapper,
+.component40 {
+  max-width: 100%;
+}
+.component38Wrapper {
+  height: 70px;
+  width: 515px;
+  flex-direction: column;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+  margin-left: -560px;
+}
+.component40 {
+  align-self: stretch;
+  flex-direction: row;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-aldrich);
+}
+@media screen and (max-width: 725px) {
+  .component38 {
+    gap: 34px 17px;
+  }
+}

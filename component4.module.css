@@ -1,0 +1,68 @@
+.propertyImageIcon {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-9xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.mansarovarPearlGardens {
+  margin: 0;
+  height: 64px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.component37,
+.mansarovarPearlGardensWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mansarovarPearlGardensWrapper {
+  width: 1387px;
+  flex-direction: row;
+  padding: 0 var(--padding-35xl);
+}
+.component37 {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 var(--padding-64xl);
+  gap: var(--gap-smi);
+  z-index: 2;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-aldrich);
+}
+@media screen and (max-width: 1200px) {
+  .mansarovarPearlGardensWrapper {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .mansarovarPearlGardens {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .component37 {
+    padding-bottom: var(--padding-35xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mansarovarPearlGardens {
+    font-size: var(--font-size-5xl);
+  }
+}

@@ -1,0 +1,226 @@
+.heartIcon {
+  position: absolute;
+  height: 108.32%;
+  width: 109.54%;
+  top: -4.1%;
+  right: -2.68%;
+  bottom: -4.21%;
+  left: -6.86%;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-darkslateblue);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.component45Child,
+.component45Item {
+  position: absolute;
+  border-radius: var(--br-31xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.component45Child {
+  height: 81.37%;
+  width: 25.74%;
+  top: 0;
+  right: 73.93%;
+  bottom: 18.63%;
+  left: 0.33%;
+  object-fit: cover;
+}
+.component45Item {
+  height: 31.48%;
+  width: 66.78%;
+  top: 29.73%;
+  right: 2.96%;
+  bottom: 38.79%;
+  left: 30.26%;
+}
+.type,
+.vasaiWestMumbai {
+  position: absolute;
+  height: 5.8%;
+  width: 19.49%;
+  top: 47.62%;
+  left: 54.52%;
+  line-height: 29px;
+  display: inline-block;
+  z-index: 2;
+}
+.type {
+  width: 4.6%;
+  top: 34%;
+  left: 36.02%;
+  min-width: 57.7px;
+}
+.location {
+  width: 8.72%;
+  top: 33.26%;
+  left: 58.15%;
+  min-width: 109.3px;
+}
+.apartment,
+.carpetArea,
+.location,
+.sqft {
+  position: absolute;
+  height: 5.8%;
+  line-height: 29px;
+  display: inline-block;
+  z-index: 2;
+}
+.carpetArea {
+  width: 12.5%;
+  top: 34%;
+  left: 80.76%;
+}
+.apartment,
+.sqft {
+  top: 47.62%;
+}
+.sqft {
+  width: 8.39%;
+  left: 82.81%;
+  min-width: 105.1px;
+}
+.apartment {
+  width: 11.11%;
+  left: 32.81%;
+}
+.instanceChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  max-width: 100%;
+}
+.component45Inner {
+  position: absolute;
+  height: 15.13%;
+  width: 35.2%;
+  top: 79.35%;
+  right: 19.82%;
+  bottom: 5.53%;
+  left: 44.98%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  z-index: 1;
+}
+.photosButtonChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  max-width: 100%;
+}
+.photosButton {
+  position: absolute;
+  height: 13.35%;
+  width: 27.14%;
+  top: 86.65%;
+  right: 72.86%;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  z-index: 1;
+}
+.contactOwner,
+.photos,
+.view {
+  position: absolute;
+  height: 5.03%;
+  width: 7.9%;
+  top: 90.43%;
+  left: 16.2%;
+  z-index: 2;
+}
+.contactOwner,
+.photos {
+  width: 12.91%;
+  top: 83.12%;
+  left: 57.24%;
+}
+.photos {
+  width: 6%;
+  top: 90.43%;
+  left: 4.36%;
+}
+.iconHeart,
+.shareIcon {
+  position: absolute;
+  height: 6.04%;
+  width: 1.97%;
+  top: 82.63%;
+  right: 5.92%;
+  bottom: 11.32%;
+  left: 92.11%;
+  overflow: hidden;
+  z-index: 1;
+}
+.iconHeart {
+  width: 2.71%;
+  top: 82.88%;
+  right: 0;
+  bottom: 11.08%;
+  left: 97.29%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.bhkApartmentFor {
+  margin: 0;
+  position: absolute;
+  height: 8.81%;
+  width: 64.64%;
+  top: 6.81%;
+  left: 27.14%;
+  font-size: var(--font-size-17xl);
+  line-height: 43px;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-white);
+  display: inline-block;
+  z-index: 1;
+}
+.component45 {
+  height: 365.6px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-aldrich);
+}
+@media screen and (max-width: 1050px) {
+  .bhkApartmentFor {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .apartment,
+  .carpetArea,
+  .location,
+  .sqft,
+  .type,
+  .vasaiWestMumbai {
+    font-size: var(--font-size-lgi);
+  }
+  .contactOwner,
+  .photos,
+  .view {
+    font-size: var(--font-size-base);
+  }
+  .bhkApartmentFor {
+    font-size: var(--font-size-3xl);
+  }
+}
